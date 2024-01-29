@@ -10,7 +10,7 @@ EXPOSE 9001
 
 #
 # Build docker image:
-# docker build -t springboot-microservices/product-service:0.0.1 .
+# docker build -t princeabhijeet/product-service:latest .
 # -t : tag info will be provided in command
 # last . : find Dockerfile in current root folder to build docker image 
 
@@ -20,8 +20,8 @@ EXPOSE 9001
 
 #
 # Run docker image:
-# docker run -d -p9001:9001 --name product-service springboot-microservices/product-service:0.0.1
-# docker run -d -p9001:9001 --net msnet --name product-service springboot-microservices/product-service:0.0.1
+# docker run -d -p9001:9001 --name product-service princeabhijeet/product-service:latest
+# docker run -d -p9001:9001 --net msnet --name product-service princeabhijeet/product-service:latest
 # -d : detatched mode
 # -p : port information
 # 8761:8761 : hostport:containerport
