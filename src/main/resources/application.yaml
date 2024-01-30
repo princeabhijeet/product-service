@@ -20,7 +20,7 @@ spring:
         
 eureka:
   instance:
-    hostname: ${POD_NAME}.eureka
+    #hostname: ${POD_NAME}.eureka
     prefer-ip-address: false 
   client:
     fetch-registry: true
